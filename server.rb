@@ -2,5 +2,5 @@
 require 'sinatra'
 
 get '/' do
-  'Welcome to App Runner!'
+  `ruby -v`
 end
